@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+.log{
+	
+	
+	
+	border-radius: 15px;
+	border: 2px solid 		#2F4F4F;
+	margin: 0 auto;
+	margin-top:60px;
+	float:center;
+	height:450px;
+	width:400px;
+	padding:20px;
+	box-shadow: 10px 10px 10px #000000;
+	
+}
+
+.container {
+	
+  margin: 40px auto;
+ 
+}
+
+.error{
+	margin-left:90px;
+}
+
+
+
+.login-help {
+
+}
+
+
+input::-webkit-input-placeholder {
+  color: 	grey;
+  font-size: 18px;
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+  
+}
+
+input[type=text], input[type=password] {
+	
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: white;
+  background: 	black;
+ 
+  border-radius: 15px;
+  box-shadow: 5px 3px 3px #FFF5EE;
+ 
+
+
+}
+.remember_me{
+	margin-left:130px;
+	margin-top:40px;
+}
+
+.login-help{
+	margin-top:50px;
+}
+.submit{
+	margin-left:160px;
+	margin-top:30px;
+}

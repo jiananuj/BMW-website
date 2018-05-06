@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    border-radius:15px;
+    box-shadow:4px 4px 4px black;
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+
+/* Add a background color and some padding around the form */
+.container {
+   margin-top : 20px;
+    background-color: #FFDAB9;
+    padding: 20px;
+    border-radius:15px;
+}
+
+.cimg{
+	height:240px;
+	width:240px;
+	margin-left:40%;
+	margin-top:20px;
+	
+}
+

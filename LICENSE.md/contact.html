@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="html\\contact.css">
+<link rel="stylesheet" href="html\\index.css">
+<meta charset="ISO-8859-1">
+<title>Contact</title>
+</head>
+<body bgcolor= #008B8B>
+
+<div class="topnav">
+  <a  href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <a class="active" href="#contact">Contact</a>
+  <a href="about.html">About</a>
+  <a href="admin.jsp">Admin login</a>
+  <a href="guest.jsp">Guest login</a>
+  
+    <img class="logo"  src="img\\logo.png"  >
+</div>
+
+<div class="container">
+	<img  class ="cimg" src="img2\\contact.jpg" >
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+</body>
+</html>
